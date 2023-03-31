@@ -1,6 +1,8 @@
 {
   "main": "./js/script.js",
+  "type": "module",
   "scripts": {
-    "build": "node ./js/script.js"
+    "build": "node ./js/script.js",
+    "test": "node ./test/pow_test.js"
   }
 }
